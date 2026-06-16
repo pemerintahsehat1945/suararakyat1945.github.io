@@ -175,3 +175,51 @@ footer{
     border-radius:10px;
     background:#f8fafc;
 }
+
+.aspirasi-section{
+    display:flex;
+    justify-content:center;
+    padding:50px 20px;
+}
+
+.aspirasi-card{
+    width:100%;
+    max-width:700px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.aspirasi-card h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#1e293b;
+}
+
+.aspirasi-card input,
+.aspirasi-card select,
+.aspirasi-card textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:15px;
+    box-sizing:border-box;
+}
+
+.aspirasi-card button{
+    width:100%;
+    padding:15px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.aspirasi-card button:hover{
+    background:#1d4ed8;
+}
