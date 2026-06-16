@@ -38,14 +38,26 @@
     </form>
 </section>
 
-<select>
-    <option>Pilih Kategori</option>
-    <option>Pendidikan</option>
-    <option>Kesehatan</option>
-    <option>Infrastruktur</option>
-    <option>Pelayanan Publik</option>
-    <option>Lingkungan</option>
-</select>
+<div class="form-group">
+    <label>Kategori Aspirasi</label>
+
+    <select class="kategori">
+        <option value="">Pilih Kategori Aspirasi</option>
+        <option>🏛️ Pelayanan Publik</option>
+        <option>🛣️ Infrastruktur</option>
+        <option>🏥 Kesehatan</option>
+        <option>🎓 Pendidikan</option>
+        <option>🌱 Lingkungan</option>
+        <option>💰 Korupsi & Transparansi</option>
+        <option>🚔 Keamanan</option>
+        <option>📋 Lainnya</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label>Upload Bukti (Opsional)</label>
+    <input type="file" class="upload-bukti">
+</div>
 
 <input type="file" accept="image/*">
 
